@@ -9,7 +9,7 @@
     "start": "luban start",
     "test": "luban test",
     "release": "luban release",
-    "luban": "luban-----duheng",
+    "luban": "luban",
     "prettier": "prettier --write --config .prettierrc \"src/**/*.{js,css,scss,less}\""
   },
   "dependencies": {
