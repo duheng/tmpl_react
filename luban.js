@@ -7,26 +7,18 @@ module.exports = {
   "build": "dist",
   "dll": "dll",
   "static": {
-    "development": "/",
-    "test": "/",
-    "production": ""
-  },
-  "api": {
-    "development": "/",
-    "test": "/",
+    "development": "",
     "production": "//api.luban.com/"
   },
-  "entry": {},
+  "api": {
+    "development": "",
+    "production": "//api.luban.com/"
+  },
+  "entry": {'main':'./src/pages/index.js'},
   "library": {
      "vendor": ['react', 'react-dom'] 
   },
-  "alias": {
-    "scss": "scss",
-    "components": "components",
-    "utils": "utils",
-    "assets": "assets",
-    "app": "app"
-  },
+  "alias": {},
   "devtool": "source-map",
   "css_modules": false,
   "template": {

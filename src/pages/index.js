@@ -1,4 +1,3 @@
-import 'utils/object-polyfills'
 import ReactDom from "react-dom"
 import {BrowserRouter, Route, Switch, Redirect} from "react-router-dom"
 

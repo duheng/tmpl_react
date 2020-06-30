@@ -29,7 +29,6 @@ export default class Home extends Component {
     console.log(this.props);
   }
   render() {
-    console.log('home-render---', this.props.home.movies);
     return (
       <div className="Home">
         <Link to="/about" className="about">
